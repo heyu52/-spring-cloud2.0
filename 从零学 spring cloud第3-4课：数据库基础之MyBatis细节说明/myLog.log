@@ -1,0 +1,25 @@
+2019-07-06 12:07:31.153  INFO 13012 --- [main] com.csdn.demo.DemoApplication            : Starting DemoApplication on WIN-M5KMNJTRPAM with PID 13012 (started by Administrator in D:\CSDN\-spring-cloud2.0\从零学 spring cloud第3-4课：数据库基础之MyBatis细节说明)
+2019-07-06 12:07:31.153  INFO 13012 --- [main] com.csdn.demo.DemoApplication            : No active profile set, falling back to default profiles: default
+2019-07-06 12:07:31.823  INFO 13012 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-07-06 12:07:31.843  INFO 13012 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-06 12:07:31.843  INFO 13012 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-06 12:07:31.903  INFO 13012 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-06 12:07:31.903  INFO 13012 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 730 ms
+2019-07-06 12:07:32.128  INFO 13012 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-06 12:07:32.258  INFO 13012 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-07-06 12:07:32.258  INFO 13012 --- [main] com.csdn.demo.DemoApplication            : Started DemoApplication in 1.298 seconds (JVM running for 1.727)
+2019-07-06 12:07:53.310  INFO 13012 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-06 12:07:53.311  INFO 13012 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-07-06 12:07:53.315  INFO 13012 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2019-07-06 12:07:53.339  INFO 13012 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-07-06 12:07:53.529  INFO 13012 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-07-06 12:07:53.534 DEBUG 13012 --- [http-nio-8080-exec-1] c.c.demo.mapper.UserMapper.getUserById   : ==>  Preparing: SELECT * FROM user WHERE id = ? 
+2019-07-06 12:07:53.548 DEBUG 13012 --- [http-nio-8080-exec-1] c.c.demo.mapper.UserMapper.getUserById   : ==> Parameters: 62(Long)
+2019-07-06 12:07:53.560 TRACE 13012 --- [http-nio-8080-exec-1] c.c.demo.mapper.UserMapper.getUserById   : <==    Columns: id, name, sex, age
+2019-07-06 12:07:53.561 TRACE 13012 --- [http-nio-8080-exec-1] c.c.demo.mapper.UserMapper.getUserById   : <==        Row: 62, 20190706, 男, 99
+2019-07-06 12:07:53.562 DEBUG 13012 --- [http-nio-8080-exec-1] c.c.demo.mapper.UserMapper.getUserById   : <==      Total: 1
+2019-07-06 12:07:54.487 DEBUG 13012 --- [http-nio-8080-exec-4] c.c.demo.mapper.UserMapper.getUserById   : ==>  Preparing: SELECT * FROM user WHERE id = ? 
+2019-07-06 12:07:54.488 DEBUG 13012 --- [http-nio-8080-exec-4] c.c.demo.mapper.UserMapper.getUserById   : ==> Parameters: 62(Long)
+2019-07-06 12:07:54.488 TRACE 13012 --- [http-nio-8080-exec-4] c.c.demo.mapper.UserMapper.getUserById   : <==    Columns: id, name, sex, age
+2019-07-06 12:07:54.488 TRACE 13012 --- [http-nio-8080-exec-4] c.c.demo.mapper.UserMapper.getUserById   : <==        Row: 62, 20190706, 男, 99
+2019-07-06 12:07:54.489 DEBUG 13012 --- [http-nio-8080-exec-4] c.c.demo.mapper.UserMapper.getUserById   : <==      Total: 1
