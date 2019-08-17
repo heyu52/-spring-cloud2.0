@@ -1,0 +1,5 @@
+com\csdn\demo\DemoApplication.class
+com\csdn\demo\MQConsumer\Consumer.class
+com\csdn\demo\web\myControl.class
+com\csdn\demo\MQProducer\Producer.class
+com\csdn\demo\Config\MqConfig.class
